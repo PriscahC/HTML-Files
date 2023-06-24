@@ -1,0 +1,578 @@
+    * {
+        padding: 0px;
+        margin: 0px;
+    }
+    html {
+        
+    }
+    
+    a {
+        color: white;
+        text-decoration: none;
+    }
+
+    /*PAGE 1*/
+    .titles {
+        list-style: none;
+        justify-content: space-between;
+        align-items: center;
+        text-decoration: none;
+    display: flex;
+    }
+    .Cont {
+        color: white;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .Div1 {
+        padding: 0px 135px;
+        background-color: rgb(44, 56, 82);
+    }
+    .Cont1 {
+        margin-top: 200px;
+        
+    }
+    .Cont2 {
+        margin-top: 120px;
+    }
+    h5 {
+        color: #EF6D58;
+        font-family: Epilogue sans-serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 3px;
+        
+    }
+    h1 {
+        font-family: Epilogue sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+        
+    }
+
+    p {
+        font-family: Epilogue sans-serif;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 100;
+        line-height: 32px;
+        letter-spacing: 0px;
+        
+    }
+    .Cont1 h4 {
+        padding: 16px;
+        border-color: white;
+        border-radius: 10px;
+        background-color: #EF6D58;
+        width: 120px;      
+    }
+    span {
+        border-style: solid;
+    font-size: large;
+    border-radius: 7px;
+        padding: 6px 18px;
+        border-color: white;
+        border-width: 0.09px;
+    }
+
+    /*PAGE 2*/
+    .Div2 {
+        background-color: pink;
+        padding-top: 40px;
+        padding-bottom: 90px;
+        
+    }
+    .Div2 h3 {
+        text-align: center;
+        color: #EF6D58;
+        font-family: Epilogue;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-top: ;
+
+    }
+    .Div2 h1 {
+        text-align: center;
+    } 
+    .V2Fset {
+        
+        padding: 40px 200px;  
+        margin-top: 50px; 
+        display: grid;
+        grid-template-columns: auto auto;
+    
+        align-items: center;
+    }
+    .fs2 {
+        padding: 40px;
+        
+    }
+    .fs2 p {
+    font-family: Epilogue;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 40px;
+    }
+
+    .D2p {
+        text-align: center;
+        margin-top: 40px;  
+    }
+
+    /*PAGE 3*/
+    .Div3   {
+        background-color: rgb(44, 56, 82);
+        
+    }
+
+    .Div3 h2 {                                  /*modification of h1 */
+        font-family: Epilogue sans-serif;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: white;
+    }
+    .Div3 a {
+        text-align: end;
+    }
+
+    .top {
+        
+        padding: 120px 50px 60px 50px;    
+    }
+    .TopR {
+        text-align: right;
+        
+    }
+
+
+    .low {
+        width: 80%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .low fieldset {
+        padding: 30px; 
+        position: relative; 
+        margin-bottom: 100px;
+    }
+    .LowTx button {
+        padding: 9px 18px;
+        border-radius: 35px;
+    }
+
+    .LowTx { 
+        position: absolute;
+        bottom: 80px;
+        left: 80px;
+    }
+    .LowTx h1 {
+        font-family: Epilogue sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 80px;
+        letter-spacing: -2px;
+        color: white;
+    }
+
+    /*PAGE 4*/
+    .Div4 {
+        background-color: pink;
+    }
+    .Dv4A {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+    .Dv4A fieldset {
+        border: none;
+        padding: 200px 150px;
+    }
+    .Dv4A h2{
+        font-family: Epilogue sans-serif;
+        font-size: 50px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 60px;
+        letter-spacing: -2px;
+        color: #391400;
+        bottom: 30px;
+    }
+    .Dv4P2 {
+        font-family: Epilogue;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0px;
+        
+    }
+    .Dv4A button {
+        padding: 12px 18px;
+        
+    }
+
+    .fset { 
+        display: flex;
+        padding: 0px 50px 150px 250px;
+    }
+    .fset1 {
+        width: 40%;
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 40px 0px 40px 40px;
+    }
+    .fset1 h2 {
+        font-size: xx-large;
+    }
+
+    .fset2 {
+        width: 40%;
+        display: grid;
+        grid-template-columns: 20% auto;
+        padding: 40px 0px 40px 40px;
+    }
+    .fset2 h2 {
+        font-size: xx-large;
+    }
+
+    /*PAGE 5*/
+    .Div5 {
+        position: relative;
+    }
+    .Div5a {
+        padding: 200px 100px;
+        
+        
+        
+    }
+    .Dv5aL h2 {
+        font-family: Epilogue;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: -1px;
+        text-align: left;
+
+    }
+    li {
+        list-style: none;
+    }
+    .Div5a {
+        background-color: rgb(44, 56, 82);
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+        
+    .Dv5aL {
+        color: white;
+        right: 100px;
+        border: none;
+    }
+    .Dv5aR {
+        border: none;
+    }
+    .star {
+        position: absolute;
+        bottom: 220px;
+        left: 100px;
+    }
+    .Div5b {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: rgb(255, 164, 180);  
+        
+    }
+    .End5b {
+        margin: 80px 150px 80px 100px;
+    }
+    .End5b button {
+        padding: 12px 18px;
+        background: #EF6D58;
+        border-radius: 7px;
+        border: none;
+        color: white; 
+    }
+    .Div5b p {
+        margin: 100px 70px 60px 80px;
+    }
+    .Div5b img {
+        
+    }
+
+
+    /*PAGE 6*/
+    .Div6 {
+        background-color: pink;
+        padding: 100px 100px;
+    }
+    .fsetX {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        margin-top: 90px;
+    }
+    .fsetX fieldset{
+        padding: 60px 60px;
+    }
+    .fsetX p {
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
+    .Clients {
+        display: grid;
+        grid-template-columns: 30% auto;
+        
+    }
+    .Clients1 {
+        display: grid;
+        grid-template-columns: 30% auto;
+    }
+    .midfs {
+        background-color: white;  
+    }
+    .butt {
+        margin-top: 60px;
+        text-align: center;
+    }
+    .butt button {
+        padding: 8px 17px;
+        border-radius: 7px;
+    }
+
+
+    /*PAGE 7*/
+    .Div7 {
+        background-color: rgb(44, 56, 82);
+        padding: 100px 100px;
+    }
+    .Dv7A {
+        display: grid;
+        grid-template-columns: 50% auto;
+        color: white;
+        margin-bottom: 100px;
+    }
+    .Dv7L h2 {
+        font-family: Epilogue;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: -1px;
+        text-align: left;
+    }
+    .p2 {
+        font-weight: 800px;
+        margin-top: 30px;
+    }
+    .V7rT {
+        background-color: white;
+        color: #391400A3;
+        padding: 30px 5px 20px 20px;
+    }
+    .V7rT h2{
+        display: grid;
+        grid-template-columns: 90% auto;
+    }
+    .V7rT p { 
+        margin: 20px 50px 5px 0px;
+        text-align: justify;
+        
+    }
+    .V7rB li {
+        border: solid;
+        border-width: 0.005rem;
+        padding: 30px 5px 20px 20px;
+        display: grid;
+        grid-template-columns: 90% auto;
+        
+    }
+
+    /*PAGE 8*/
+    .Div8 {
+        background-color: pink;
+        
+        padding: 100px;
+    }
+    .Div8A {
+        display: grid;
+        grid-template-columns: 70% auto;
+    }
+    .Div8 h4 {
+        margin-top: 20px;
+    }
+    .Dv8L h2{
+        font-family: Epilogue;
+        font-size: 42px;
+        font-style: normal;
+        font-weight: 800;
+        
+        letter-spacing: -1px;
+        text-align: left;
+    }
+    .Div8 button {
+        padding: 7px 15px;
+        border-radius: 3px;
+        border: none;
+        margin-bottom: 60px;   
+    }
+    .btn8 {
+        text-align: center;
+    }
+    .Dv8R p {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    .Div8 fieldset {
+        border: none;
+        width: 100%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding-top: 30px;
+    }
+    .Div8B {
+        margin-top: 50px;
+    }
+    .Div8B input{
+        padding: 15px 300px 15px 2px;
+    }
+
+
+
+    /*PAGE 9*/
+    .Div9 {
+        background-color: rgb(44, 56, 82);
+    }
+    .Div9M {
+        display: grid;
+        grid-template-columns: 40% 60%;
+        gap: 150px;
+        padding: 200px 100px;
+        align-items: center;
+    }
+    .V9ML  {
+        line-height: 60px;
+        background-color: white;
+        padding: 30px;
+    }
+    .V9ML button {
+        padding: 8px 16px;
+        border-color: white;
+        border-radius: 5px;
+        background-color: #EF6D58;
+        width: 150px;   
+        align-content: right;
+        color: white;
+    }
+    .V9ML input {
+        padding: 10px 
+         5px; 
+          
+    }
+    .btn9 {
+        text-align: right;
+        
+    }
+    .V9MR {
+        color: white;
+    }
+    .V9MR h2 {
+        font-family: Epilogue;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 94px;
+        letter-spacing: -1px;
+        text-align: left;
+        
+    }
+    .V9MR li {
+        display: flex;
+        gap: 15px;
+        margin: 15px 10px;
+    }
+
+
+    /*PAGE 10*/
+    .Div10 {
+        background-color: pink;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 200px 100px;
+    }
+    .Div10 h2 {
+        
+        font-family: Epilogue;
+        font-size: 56px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 64px;
+        letter-spacing: -1px;
+        text-align: left;
+        margin-bottom: 30px;
+    }
+    .DvTR {
+        margin-top: 80px;
+    }
+    .Div10 button {
+        padding: 12px 16px;
+        border: none;        
+        border-radius: 5px;
+        background-color: #EF6D58;
+        width: 150px;   
+        align-content: right;
+        color: white;
+        margin-top: 30px;
+    }
+
+    /* END PAGE*/
+    .imgs {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto;
+    }
+    .imgs fieldset {
+        border: none;
+    }
+    .imgs fieldset img{
+        width: 100%;
+        height: 100%;
+    }
+    .aobs {
+        background-color: rgb(44, 56, 82);
+        padding: 100px 100px;
+    }
+    .aobsT {
+        
+        display: grid;
+        grid-template-columns: 30% 50% 20% ;
+        color: white;
+        line-height: 30px;
+        margin-bottom: 70px;
+    }
+    .bst1 {
+        columns: 2;
+    }
+    .aobsB {
+        display: grid;
+        grid-template-columns: 60% 20% 20%;
+        margin-top: 40px;
+    }
+    .aobsB p {
+        color: #FFFFFFA3;
+
+    }
